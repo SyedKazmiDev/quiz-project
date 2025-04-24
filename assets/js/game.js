@@ -130,5 +130,5 @@ const finishQuiz = () => {
     });
 
     localStorage.setItem('mostRecentScore', score);
-    window.location.assign('/end.html');
+    window.location.assign('./end.html');
 };
