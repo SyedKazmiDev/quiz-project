@@ -100,3 +100,30 @@
     color: white;
   }
   
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 3rem;
+    }
+  }
+  
+  @media (max-width: 425px) {
+    h2 {
+      font-size: 2rem;
+      margin-top: 2rem;
+    }
+    .hud-prefix {
+      font-size: 1.5rem;
+    }
+    #progressBar {
+      width: 12rem;         
+      height: 1.2rem;       
+      border: 0.2rem solid #56a5eb; 
+      margin-top: 0.5rem;
+    }
+    #progressBarFull {
+      height: 1rem;         
+    }
+    .choice-prefix, .choice-text, .choice-text.selected, .btn {
+      font-size: 14px;
+    }
+  }
